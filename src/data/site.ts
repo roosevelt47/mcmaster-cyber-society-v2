@@ -7,7 +7,7 @@ export const SITE = {
   description:
     "McMaster University's student-run cybersecurity club: weekly CTF sessions, workshops, guest speakers and competitions for every skill level.",
   // Set NEXT_PUBLIC_SITE_URL in Vercel once the final domain is known.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://mcmaster-cyber-society.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://mcmaster-cyber-society-v2.vercel.app",
   email: "cybersoc@mcmaster.ca",
   timeZone: "America/Toronto",
 } as const;
